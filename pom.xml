@@ -78,12 +78,11 @@
 
         <!-- Plugin Versions -->
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
-        <android-maven-plugin.version>3.9.0-rc.2</android-maven-plugin.version>
-        <build-helper-maven-plugin.version>1.8</build-helper-maven-plugin.version>
-        <maven-release-plugin.version>2.5</maven-release-plugin.version>
-        <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
-        <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
-        <jacoco-maven-plugin.version>0.7.1.201405082137</jacoco-maven-plugin.version>
+        <android-maven-plugin.version>4.0.0-rc.1</android-maven-plugin.version>
+        <maven-release-plugin.version>2.5.1</maven-release-plugin.version>
+        <maven-javadoc-plugin.version>2.10.1</maven-javadoc-plugin.version>
+        <maven-source-plugin.version>2.3</maven-source-plugin.version>
+        <jacoco-maven-plugin.version>0.7.2.201409121644</jacoco-maven-plugin.version>
         <maven-gpg-plugin.version>1.4</maven-gpg-plugin.version>
     </properties>
 
@@ -162,12 +161,6 @@
                         <lintConfig>${project.basedir}/lint.xml</lintConfig>
                         <lintSkip>false</lintSkip>
                     </configuration>
-                </plugin>
-
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>build-helper-maven-plugin</artifactId>
-                    <version>${build-helper-maven-plugin.version}</version>
                 </plugin>
 
                 <plugin>
