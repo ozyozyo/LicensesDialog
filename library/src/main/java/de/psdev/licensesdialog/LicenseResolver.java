@@ -48,6 +48,7 @@ public final class LicenseResolver {
         registerLicense(new CreativeCommonsAttributionNoDerivs30Unported());
         registerLicense(new GnuGeneralPublicLicense30());
         registerLicense(new GnuGeneralPublicLicense20());
+        registerLicense(new NewrelicLicense());
     }
 
     /**
